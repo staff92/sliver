@@ -29,6 +29,8 @@ jobs:
           # Repository name with owner. For example, actions/checkout
           # Default: ${{ github.repository }}
           repository: bishopfox/sliver
+          ref: 'v1.7.3'
+
 
       - name: 🔑 Login to GitHub Container Registry
         uses: docker/login-action@v3
